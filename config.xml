@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.jeweltime.serial.alert"
+        version="1.0.0">
+  <name>Jewel Time Alert Manager</name>
+
+  <description>
+    Connect with Jewel Time serial port and send commands
+  </description>
+
+  <author href="https://wilderminds.com"
+          email="support@wilderminds.com">
+    Wilder Minds LLC
+  </author>
+
+  <!-- Options -->
+  <preference name="orientation"
+              value="default" />
+  <preference name="fullscreen"
+              value="true" />
+  <!-- <preference name="phonegap-version" -->
+              <!-- value="2.3.0" /> -->
+  <preference name="auto-hide-splash-screen"
+              value="true" />
+
+  <!-- iOS only -->
+  <!-- Handheld and Tablet -->
+  <preference name="target-device"
+              value="universal" />
+  <!-- Don't Bounce on stretch -->
+  <preference name="webviewbounce"
+              value="false" />
+  <!-- Show Startup Spinner -->
+  <preference name="show-splash-screen-spinner"
+              value="false" />
+  <!-- Don't Suspend -->
+  <preference name="exit-on-suspend"
+              value="false" />
+
+  <!-- Features (e.g. Permissions) -->
+  <feature name="http://api.phonegap.com/1.0/network" />
+  <feature name="http://api.phonegap.com/1.0/notification" />
+  <feature name="http://api.phonegap.com/1.0/geolocation" />
+  
+  <!-- Icons -->
+  <icon src="icon.png" />
+  <!-- must be named this -->
+
+  <!-- iOS -->
+  <icon src="icons/icon_57.png"
+        gap:platform="ios"
+        width="57"
+        height="57" />
+  <icon src="icons/icon_72.png"
+        gap:platform="ios"
+        width="72"
+        height="72" />
+  <icon src="icons/icon_114.png"
+        gap:platform="ios"
+        width="114"
+        height="114" />
+
+  <!-- Android -->
+  <icon src="icons/icon_36.png"
+        gap:platform="android"
+        gap:density="ldpi" />
+  <icon src="icons/icon_48.png"
+        gap:platform="android"
+        gap:density="mdpi" />
+  <icon src="icons/icon_72.png"
+        gap:platform="android"
+        gap:density="hdpi" />
+  <icon src="icons/icon_96.png"
+        gap:platform="android"
+        gap:density="xhdpi" />
+
+  <!-- WinPhone -->
+  <icon src="icons/wpicon.png"
+        gap:platform="winphone" />
+  <icon src="icons/wpicon_tile.png"
+        gap:platform="winphone"
+        gap:role="background" />
+
+  <!-- Splash Screens -->
+  <gap:splash src="splash.png" />
+  <!-- must be named this -->
+
+  <!-- Android Splash Screens (These are densities not resolutions) -->
+  <gap:splash src="img/splash/android/ldpi.png"
+              gap:platform="android"
+              gap:density="ldpi" />
+  <gap:splash src="img/splash/android/mdpi.png"
+              gap:platform="android"
+              gap:density="mdpi" />
+  <gap:splash src="img/splash/android/hdpi.png"
+              gap:platform="android"
+              gap:density="hdpi" />
+  <gap:splash src="img/splash/android/xhdpi.png"
+              gap:platform="android"
+              gap:density="xhdpi" />
+
+  <!-- iOS Splash Screens-->
+  <gap:splash src="img/splash/ios/splash_320x480.png"
+              width="320"
+              height="480" />
+  <gap:splash src="img/splash/ios/splash_640x960.png"
+              width="640"
+              height="960" />
+  <gap:splash src="img/splash/ios/splash_640x1136.png"
+              width="640"
+              height="1136" />
+  <gap:splash src="img/splash/ios/splash_1024x768.png"
+              width="1024"
+              height="768" />
+  <gap:splash src="img/splash/ios/splash_768x1024.png"
+              width="768"
+              height="1024" />
+
+</widget>
