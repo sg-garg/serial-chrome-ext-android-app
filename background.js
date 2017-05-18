@@ -1,7 +1,7 @@
 var connectionId = -1;
 //Initial extension launch window
 chrome.app.runtime.onLaunched.addListener(function() {
-  chrome.app.window.create('alert.html', {
+  chrome.app.window.create('index.html', {
     'id': "jewel-time-device-setting",
     'outerBounds': {
       'width': 580,
